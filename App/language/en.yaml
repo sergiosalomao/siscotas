@@ -1,0 +1,5 @@
+WELCOME: Welcome
+PAGE_NOT_FOUND : Page not found
+CONTROLLER_NOT_FOUND : Controller not found
+NEW_USER_CREATE : Your user has been successfully registered. Sign in to activate your account.
+USER_NOT_CREATE : Could not create user, check your data.

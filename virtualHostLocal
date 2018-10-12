@@ -1,0 +1,5 @@
+Usado no Xampp este virtual host
+<VirtualHost *:80>
+    DocumentRoot C:/xampp/htdocs/siscotas/App/public
+    ServerName siscotas.local
+</VirtualHost>

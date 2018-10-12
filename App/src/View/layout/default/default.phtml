@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SisCotas</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="/assets/libs/bootstrap/css/bootstrap.min.css">
+    <!--Jquery-->
+    <script src="/assets/libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="/assets/libs/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="/assets/libs/bootstrap/js/bootstrap.js"></script>
+    <!--css files layout-->
+    <?php
+    $controller = lcfirst($this->controller);
+    echo "<link rel='stylesheet' href='/assets/layout/$this->layout/css/$this->controller.css'>";
+    echo "<script src='/assets/layout/$this->layout/js/$this->controller.js'></script>";
+    ?>
+</head>
+<body class="bgdefault">

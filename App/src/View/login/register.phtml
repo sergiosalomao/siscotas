@@ -1,0 +1,60 @@
+<section class="h-100">
+    <div class="container h-100">
+        <div class="row justify-content-md-center h-100">
+            <div class="card-wrapper">
+                <div class="brand">
+                    <img src="/images/logo.png">
+                </div>
+                <div class="card fat">
+                    <div class="card-body">
+                        <h4 class="card-title">Nova Conta de Usuario</h4>
+                        <div id="alertSucess" class="alert alert-success " role="alert"  >
+                            <span id="txtSucess"></span>
+                        </div>
+                        <div id="alertFail" class="alert alert-danger " role="alert"  >
+                            <span id="txtFail"></span>
+                        </div>
+                        <form id="formUser" method="POST">
+                            <input id="id" type="hidden" name="id">
+                            <div class="form-group">
+                                <label for="name">Nome</label>
+                                <input id="name" type="text" class="form-control" name="name" autofocus>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">E-Mail</label>
+                                <input id="email" type="email" class="form-control" name="email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password">Senha</label>
+                                <input id="password" type="password" class="form-control" name="password"
+                                       data-eye>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" name="term" value="1"> Eu Aceito os termos e condições
+                                </label>
+                            </div>
+
+                            <div class="form-group no-margin">
+                                <button id="createUser" type="submit" class="btn btn-primary btn-block">
+                                    Registrar
+                                </button>
+                            </div>
+                            <div class="margin-top20 text-center">
+                                Ja tenho uma conta? <a href="/login">Fazer Login</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer">
+                    Copyright &copy; Your Company 2018
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

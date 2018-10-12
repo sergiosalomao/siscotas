@@ -1,0 +1,5 @@
+WELCOME: Bem vindo
+PAGE_NOT_FOUND : Pagina não encontrada
+CONTROLLER_NOT_FOUND : Controller não encontrado.
+NEW_USER_CREATE : Seu usuário foi cadastrado com sucesso. Acesse seu email para ativar sua conta.
+USER_NOT_CREATE : Não foi possivel criar o usuario, verifique seus dados.
